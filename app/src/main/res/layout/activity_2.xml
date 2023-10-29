@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#DDD3BA"
+    tools:context=".Activity2">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:text="Know our Story"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Half Million Saudi Riyal was the seed money which gave birth to our well-known and beloved 1/2M Cafe. the story began with two friends decision to embark on a journey to establish their own business in Riyadh, their hometown. Filled with aspiration and determination, they marched into the business world with a capital of only 500,000 SR. However, with the support and encouragement of their local business community, the dream became a reality. The drive, Passion and determination of the where they opened their first London’s branch. This success was the result of continuous faith and effort, and with God’s blessing and our community’s support, the success journey continues."
+        android:textSize="22dp"
+        />
+
+    <Button
+        android:id="@+id/retour"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:text="retutn" />
+</LinearLayout>
